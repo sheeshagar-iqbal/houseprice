@@ -55,4 +55,4 @@ if st.button("🔮 Predict House Price"):
         X = scaler.transform(X)
 
     prediction = model.predict(X)[0]
-    st.success(f"Estimated House Price: ₹ {prediction:,.2f}")
+    st.success(f"Estimated House Price: $ {prediction:,.2f}")
